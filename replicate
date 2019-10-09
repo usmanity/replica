@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+mkdir $1
+echo "Making a directory named $1"
+
+cp template/* $1/.
